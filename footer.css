@@ -1,0 +1,151 @@
+body {
+    font-family: "Signika", sans-serif;
+}
+
+.bg-grey {
+    background: #dfdedf;
+}
+
+.logo-footer {
+    margin-bottom: 40px;
+}
+
+footer {
+    color: grey;
+}
+
+footer p,a {
+    font-size: 12px;
+    font-family: "Signika", sans-serif;
+}
+
+/* footer h6 {
+    font-family: "Playfair Display", serif;
+    margin-bottom: 40px;
+    position: relative;
+} */
+
+/* footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+} */
+
+/* .btn-footer {
+    color: grey;
+
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    line-height: 47px;
+} */
+
+footer ul li {
+    list-style: none;
+    display: block;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: none;
+}
+
+/* a:hover {
+    text-decoration: none;
+    color: #f5f5f5 ;
+} */
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.logo-part img {
+    height: 80px;
+    width: auto;
+    padding-top: 45px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+}
+
+.logo-part p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 7px;
+    margin: 0%;
+    font-size: medium;
+}
+.logo-part p#designer{
+    font-size: medium;
+    padding-top: -10px;
+    margin: 0%;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    color: #3c3c3c;
+    background-color: white;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.social-icons a:hover {
+    color: white;
+    background-color: #3c3c3c;
+    transition: 0.2s;
+}
+
+.social-icons a i {
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.footerNav {
+    margin: 30px 0px;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li {
+    margin: 0 10px 100px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.footerNav ul li a:hover {
+    color: #3c3c3c;
+}
+@media (max-width: 600px) {
+    .footerNav ul {
+        flex-direction: column;
+    }
+    .footerNav ul li {
+        margin: 0 10px 20px;
+        text-align: center;
+    }
+}
