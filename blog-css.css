@@ -1,0 +1,113 @@
+main {
+    zoom: 200%
+}
+
+.guide {   
+    margin: 0 auto;
+}
+.postfiltercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    margin-top: 2rem !important;
+}
+
+.postbox1, .tableBlogs {
+    margin-left: auto;
+    margin-right: auto;
+}
+main h3{
+    margin-top: 12px;
+}
+.postbox1 .headblog, .postbox1 .headblog a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #3c3c3c;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.postbox1 .headblog, .postbox1 .headblog a:hover{
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+
+
+.postbox1 h5{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #252424;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+.postbox1 .headblog a:hover{
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.filteritemactive-filter{
+    color: whitesmoke;
+    background-color: #04070F;
+    padding: 4px 10px;
+    border-radius:.5em ;
+    cursor: pointer;
+}
+
+.filteritem{
+    cursor: pointer;
+    font-weight:500 ;
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.postcontainer{
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(280px, auto));
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.post1{
+    align-content: center;
+}
+
+.bold-hr {
+    border: none;
+    border-top: 3px solid;
+    font-weight: bold;
+}
+
+.bottom-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 20px 50px;
+    background-color: #3c3c3c;
+    color: white;
+    width: fit-content;
+    margin: 2em auto;
+    border-radius: 20px;
+    
+}
+
+.bottom-article .articles a{
+    text-align: center;
+    text-decoration: none;
+    color: #d8d2c5;
+    font-size: small;
+
+}
+.qut{
+    font-size: 100px;
+    color: rgb(117, 128, 128);
+    padding: 0px 2vw;
+}
+
