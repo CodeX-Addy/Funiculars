@@ -1,0 +1,140 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Signika', sans-serif;
+}
+header {
+    background-color: #000;
+    color: #fff;
+    list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: 'Signika', sans-serif;
+    list-style: none;
+}
+
+body{
+	background: #f5f6fa;
+}
+
+.wrapper .sidebar{
+	background: #222525;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 225px;
+	height: 100%;
+	padding: 60px 0;
+	transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.wrapper .sidebar .profile h3{
+	color: #ffffff;
+	margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+	color: rgb(206, 240, 253);
+	font-size: 14px;
+}
+
+.wrapper .sidebar ul li a{
+	display: block;
+	padding: 13px 30px;
+	border-bottom: 1px solid #000;
+	color: rgb(241, 237, 237);
+	font-size: 16px;
+	position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+	color: #dee4ec;
+	width: 30px;
+	display: inline-block;
+}
+
+ 
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+	color: #222424;
+
+	background:white;
+    border-right: 2px solid rgb(56, 59, 61);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+	color: #222424;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+	display: block;
+}
+
+.wrapper .section{
+	width: calc(100% - 225px);
+	margin-left: 225px;
+	transition: all 0.5s ease;
+}
+
+.wrapper .section .top_navbar{
+	background: #222424;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+ 
+}
+
+.wrapper .section .top_navbar .hamburger a{
+	font-size: 28px;
+	color: #f4fbff;
+}
+
+.wrapper .section .top_navbar .hamburger a:hover{
+	color: #8c9496;
+}
+
+ 
+
+body.active .wrapper .sidebar{
+	left: -225px;
+}
+
+body.active .wrapper .section{
+	margin-left: 0;
+	width: 100%;
+}
+
+.top_navbar {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.top_navbar .hamburger {
+    display: flex;
+    align-items: center;
+    margin-left: 0%;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.top_navbar .logo {
+    text-align: center;
+    margin-left: 43%;
+    position: absolute;
+}
+.top_navbar .logo img {
+    width: 190px;
+    height: auto;
+   
+}
